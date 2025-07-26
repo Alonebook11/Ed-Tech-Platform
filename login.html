@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Student Navigator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <!-- Background decorative elements -->
+    <div class="bg-decoration">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+    </div>
+    
+    <form class="login-form" id="loginForm">
+      <div class="form-header">
+        <h2>Welcome Back</h2>
+        <p class="form-subtitle">Continue your learning journey with Student Navigator</p>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+      </div>
+      
+      <button type="submit" class="login-btn">
+        <span class="btn-text">Sign In</span>
+        <span class="btn-icon">→</span>
+      </button>
+      
+      <div class="divider">
+        <span>or</span>
+      </div>
+      
+      <a href="/api/auth/google" class="google-btn">
+        <span class="google-icon">🔍</span>
+        <span>Continue with Google</span>
+      </a>
+      
+      <div class="register-link">
+        <p>Don't have an account? <a href="#" id="showRegister">Create one here</a></p>
+      </div>
+    </form>
+
+    <form class="login-form" id="registerForm" style="display: none;">
+      <div class="form-header">
+        <h2>Join Student Navigator</h2>
+        <p class="form-subtitle">Start your learning journey today</p>
+      </div>
+      
+      <div class="form-group">
+        <label for="regName">Full Name</label>
+        <input type="text" id="regName" name="name" required placeholder="Enter your full name">
+      </div>
+      
+      <div class="form-group">
+        <label for="regEmail">Email Address</label>
+        <input type="email" id="regEmail" name="email" required placeholder="Enter your email">
+      </div>
+      
+      <div class="form-group">
+        <label for="regPassword">Password</label>
+        <input type="password" id="regPassword" name="password" required placeholder="Create a password (min 6 characters)">
+      </div>
+      
+      <div class="form-group">
+        <label for="regConfirmPassword">Confirm Password</label>
+        <input type="password" id="regConfirmPassword" name="confirmPassword" required placeholder="Confirm your password">
+      </div>
+      
+      <button type="submit" class="login-btn">
+        <span class="btn-text">Create Account</span>
+        <span class="btn-icon">→</span>
+      </button>
+      
+      <div class="register-link">
+        <p>Already have an account? <a href="#" id="showLogin">Sign in here</a></p>
+      </div>
+    </form>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html> 

@@ -10,6 +10,23 @@ Tech-Roadmaps is a student-focused web platform that provides curated learning p
 - **Resource Hub:** Access recommended platforms and study tips.
 - **Responsive Design:** Works beautifully on desktop and mobile devices.
 
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repo-url>
+   cd HACKATHON
+   ```
+2. **Install dependencies (if using Node.js features):**
+   ```bash
+   npm install
+   ```
+3. **Run the server (if using server.js):**
+   ```bash
+   node server.js
+   ```
+4. **Open `index.html` in your browser** to explore the platform.
+
 ## Project Structure
 
 - `index.html` - Main landing page
@@ -27,4 +44,5 @@ Tech-Roadmaps is a student-focused web platform that provides curated learning p
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-
+## License
+[MIT](LICENSE) 
