@@ -5,6 +5,8 @@
 
 Tech-Roadmaps is a student-centric web platform offering **curated learning paths**, **interactive quizzes**, and **progress tracking** for key technology domains. Whether you're a beginner or upskilling, this platform provides structure, confidence, and clarity in your learning journey.
 
+> ⚠️ **Note:** Backend functionality was not implemented during the hackathon due to limited time. All features are currently frontend-based, with future expansion planned.
+
 ---
 
 ## 🧩 Features
