@@ -1,48 +1,35 @@
-# Tech-Roadmaps
+# 🚀 Tech-Roadmaps – Your Personal Tech Learning Guide
 
-Tech-Roadmaps is a student-focused web platform that provides curated learning paths, progress tracking, and interactive quizzes for a variety of technology domains. It is designed to help learners master new skills with confidence and structure.
+**🌐 [Live Site →](https://ed-tech-platform-woad.vercel.app/)**  
+**📦 [GitHub Repository →](https://github.com/Alonebook11/Ed-Tech-Platform)**  
 
-## Features
+Tech-Roadmaps is a student-centric web platform offering **curated learning paths**, **interactive quizzes**, and **progress tracking** for key technology domains. Whether you're a beginner or upskilling, this platform provides structure, confidence, and clarity in your learning journey.
 
-- **Structured Learning Paths:** Explore detailed roadmaps for Web Development, App Development, AI/ML, Cyber Security, Data Science, DSA, Blockchain, and Cloud Computing.
-- **Progress Tracker:** Visualize your progress in each domain and quickly access the next module.
-- **Interactive Quizzes:** Test your knowledge with domain-specific quizzes (available on the Quiz page).
-- **Resource Hub:** Access recommended platforms and study tips.
-- **Responsive Design:** Works beautifully on desktop and mobile devices.
+---
 
-## Getting Started
+## 🧩 Features
 
-1. **Clone the repository:**
+- 📚 **Structured Learning Paths** – Step-by-step roadmaps for:
+  - Web Development
+  - App Development
+  - AI/ML
+  - Cyber Security
+  - Data Science
+  - Data Structures & Algorithms (DSA)
+  - Blockchain
+  - Cloud Computing  
+- ✅ **Progress Tracking** – Keep track of completed modules and continue where you left off.
+- 🧠 **Interactive Quizzes** – Test your knowledge in each domain on the **Quiz** page.
+- 🔗 **Resource Hub** – Get curated platforms, tips, and helpful links.
+- 📱 **Responsive Design** – Fully functional on desktops, tablets, and mobile devices.
+
+---
+
+## 🛠️ Getting Started
+
+To run the project locally:
+
+1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd HACKATHON
-   ```
-2. **Install dependencies (if using Node.js features):**
-   ```bash
-   npm install
-   ```
-3. **Run the server (if using server.js):**
-   ```bash
-   node server.js
-   ```
-4. **Open `index.html` in your browser** to explore the platform.
-
-## Project Structure
-
-- `index.html` - Main landing page
-- `quiz.html` - Interactive quizzes for all domains
-- `style.css` - Main stylesheet
-- `script.js` - Main JavaScript for interactivity
-- `server.js` - (Optional) Node.js backend for future expansion
-- `*.html` - Domain-specific learning roadmaps
-
-## Customization
-- Add or edit domain roadmaps by modifying the respective HTML files.
-- Update quizzes in `quiz.html` and `script.js`.
-- Adjust styles in `style.css` for branding.
-
-## Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-[MIT](LICENSE) 
+   git clone https://github.com/Alonebook11/Ed-Tech-Platform.git
+   cd Ed-Tech-Platform
